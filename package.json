@@ -1,5 +1,5 @@
 {
-  "name": "openclaw-compaction-context",
+  "name": "compaction-context",
   "version": "1.0.0",
   "description": "OpenClaw plugin that preserves recent conversation context across compaction cycles",
   "author": "Robert Cuadra <robert@alcarinc.com>",

@@ -5,7 +5,7 @@ Preserves recent conversation context across compaction cycles, solving the "I d
 ## Installation
 
 ```bash
-openclaw plugins install openclaw-compaction-context
+openclaw plugins install compaction-context
 ```
 
 Then restart your gateway.
@@ -37,7 +37,7 @@ This plugin hooks into the compaction lifecycle:
 {
   "plugins": {
     "entries": {
-      "openclaw-compaction-context": {
+      "compaction-context": {
         "enabled": true,
         "config": {
           "messageCount": 20,
