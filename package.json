@@ -1,0 +1,35 @@
+{
+  "name": "openclaw-compaction-context",
+  "version": "1.0.0",
+  "description": "OpenClaw plugin that preserves recent conversation context across compaction cycles",
+  "author": "Robert Cuadra <robert@alcarinc.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertcuadra/compaction-context.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robertcuadra/compaction-context/issues"
+  },
+  "homepage": "https://github.com/robertcuadra/compaction-context#readme",
+  "keywords": [
+    "openclaw",
+    "plugin",
+    "compaction",
+    "context",
+    "memory",
+    "ai",
+    "agent"
+  ],
+  "openclaw": {
+    "extensions": ["./index.ts"]
+  },
+  "files": [
+    "index.ts",
+    "openclaw.plugin.json",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
